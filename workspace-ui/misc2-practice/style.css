@@ -10,29 +10,27 @@ html {
 }
 
 body {
-    margin: 50px;
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 183, 255, 1) 5%
-  );
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 183, 255, 1) 5%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 183, 255, 1) 5%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00b7ff",GradientType=1);
-}
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+  background: darkblue;
 }
 img {
-    box-shadow: 5px 10px gray;
+  display: flex;
+  margin: 0 auto;
+}
+button {
+  padding: 0px 0px;
+}
+.mySensAR-description {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.mySensar {
+  display: flex;
+  justify-content: center;
+}
+.mygif {
+  display: flex;
+  margin: 0 auto;
 }
