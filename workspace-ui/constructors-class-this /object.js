@@ -259,6 +259,10 @@ class Garden {
   }
 }
 
+// let newRose = new Garden("roseArbor");
+// let newPerennial = new isPerennial("isPerennial");
+// let newSlope = new slopePlanters("slopePartners");
+
 /**
  * describeEstate
  * @param {Object} estate - An estate object
