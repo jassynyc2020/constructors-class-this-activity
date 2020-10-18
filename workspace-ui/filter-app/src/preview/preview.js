@@ -37,7 +37,7 @@ class Preview extends Component {
   render() {
     return (
       <div>
-        <img className="img" src={logo}></img>
+        <img className="img" src={logo} alt="imagine-logo"></img>
 
         <img className="images" src={this.state.picList[this.state.index]} />
         {""}
