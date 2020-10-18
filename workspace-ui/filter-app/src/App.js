@@ -1,7 +1,7 @@
 import React from "react";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Switch} from "react-router-dom";
 import "./App.css";
-import { TopPageDecoration, BottomPageDecoration } from "./appstyles/appStyles";
+import { BottomPageDecoration } from "./appstyles/appStyles";
 import Filter from "./filter/filter";
 import Preview from "./preview/preview";
 import Landing from "./landing/landing";

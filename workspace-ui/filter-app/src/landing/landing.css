@@ -1,7 +1,7 @@
 .icon {
-  width: 70%;
+  width: 100%;
+  padding-bottom: 150px;
 }
-
 .parent {
   display: flex;
   justify-content: center;

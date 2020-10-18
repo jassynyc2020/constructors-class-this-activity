@@ -46,5 +46,6 @@ export function BottomPageDecoration(props) {
         <FaFilter size="40px" />
       </Link>
     </div>
+    
   );
 }

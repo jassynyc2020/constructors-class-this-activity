@@ -3,6 +3,7 @@ import tree1 from "../images/preview1.jpeg";
 import tree2 from "../images/preview2.jpeg";
 import tree3 from "../images/preview3.jpeg";
 import tree4 from "../images/preview4.jpeg";
+import logo from "../images/logo.jpeg";
 import "../preview/preview.css";
 
 class Preview extends Component {
@@ -36,7 +37,7 @@ class Preview extends Component {
   render() {
     return (
       <div>
-        <img className="img" src="./images/logo.jpeg"></img>
+        <img className="img" src={logo}></img>
 
         <img className="images" src={this.state.picList[this.state.index]} />
         {""}
