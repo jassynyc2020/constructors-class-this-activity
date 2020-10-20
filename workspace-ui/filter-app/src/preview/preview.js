@@ -39,7 +39,7 @@ class Preview extends Component {
       <div>
         <img className="img" src={logo} alt="imagine-logo"></img>
 
-        <img className="images" src={this.state.picList[this.state.index]} />
+        <img className="images" src={this.state.picList[this.state.index]} alt="viewer"/>
         {""}
         <br />
         <button

@@ -1,10 +1,10 @@
 import "./filter.css";
 import React, { Component } from "react";
-import { Route, Switch, Link } from "react-router-dom";
+// import { Route, Switch, Link } from "react-router-dom";
 import Konva from "konva";
 import { Stage, Layer, Image } from "react-konva";
 import useImage from "use-image";
-import { faAlignCenter } from "@fortawesome/free-solid-svg-icons";
+// import { faAlignCenter } from "@fortawesome/free-solid-svg-icons";
 
 const ImageViewer = (props) => {
   const [image] = useImage(props.fileUrl, "Anonimus");
@@ -43,9 +43,9 @@ const ImageViewer = (props) => {
 };
 
 class ImageControls extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   handleContSlider = (event) => {
     this.props.handleContrastUpdate((event.target.value - 50) * 2);
